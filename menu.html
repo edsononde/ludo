@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunanga Game</title>
+    <link rel="stylesheet" href="/css/menu.css">
+</head>
+<body>
+    <div class="menu-container">
+        <h1 class="menu-title">Kunanga Game</h1>
+        <button class="menu-button" onclick="startGame()">Jogar</button>
+        <button class="menu-button" onclick="showRules()">Ver Regras</button>
+    </div>
+
+    <div id="rules-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeRules()">&times;</span>
+            <h2>Regras do Jogo</h2>
+            <p>
+               <strong> REGRAS DO JOGO NÃO TE IRRITES </strong><br>
+
+
+CADA JOGADOR TEM DIREITO A UM LANÇAMENTO POR VEZ <br>
+
+PODE REPETIR O LANÇAMENTO SE TIRAR 6 <br>
+
+<strong>CONDIÇÃO DE ENTRADA DE PEÇAS:</strong>
+<br>AS PEÇAS SÓ“ ENTRAM SE O JOGADOR APÓS O LANÇAMENTO TIRAR 6 <br>
+
+<strong> OBRIGATORIEDADE: </strong><br>
+---SE APÓS O LANÇAMENTO O JOGADOR TIRAR 6 E ELE AINDA TER PEÇAS FORA, A PEÇA ENTRA EM JOGO <br>AUTOMATICAMENTE E O JOGO PODERÁ FAZER UM NOVO LANÃÇAMENTO <br>
+
+
+FICHAS PEQUENAS MÁXIMO 2 PEÇAS <br>
+
+FICHAS GRANDES MÁXIMO 3 PEÇAS <br>
+
+NÃO SE PODE MATAR NA FICHA <br>
+
+SE A FICHA EM QUE SE ENCONTRAM DOIS JOGADORES Ã A FICHA DE ENTRADA DE UM JOGADOR E APÓS O LANÇAMENTO  O JOGADOR TIRA 6 E AINDA TER PEÇAS FORA: <br>
+
+---SE AS DUAS PEÇAS QUE SE ENCONTRAM NA FICHA  NÃƒO PERTENCEM AO JOGADOR, MORRE A QUE ESTIVER A MAIS TEMPO <br>
+
+---SE UMA DAS PEÇAS PERTENCE AO JOGADOR MORRE A PEÇA DO JOGADOR ADVERSÁRIO <br>
+
+--- SE AS DUAS PEÇAS PERTENCEM AO JOGADOR, A PEÃ‡A QUE ESTIVER FORA NÃƒO ENTRA E O JOGADOR TERÁ QUE <br>CONTAR OS PONTOS COM UMAS DAS PEÇAS ACTIVAS <br>
+
+
+
+<strong>CONDIÇÃO DE VITÓRIA:</strong> <br>
+--- O JOGO TERMINA QUANDO TODAS AS PEÇAS DE UM JOGADOR SE ENCONTRAREM NA HOME <br>
+ 
+<strong>CONDIÇÃO DE MATANÇA:  </strong><br>
+-A PEÇA DE UM JOGADOR É TIRADA DO JOGO, SE APÓS UM JOGADOR FAZER O LANÇAMENTO DO DADO,  A POSIÇÃO FINAL <br> DA SUA PEÇA CORRESPONDER A POSIÇÃO ACTUAL DA PEÇA DO JOGADOR ADVERSÁRIO E CASO A PEÇA  NÃO <br>ESTIVER DENTRO DE UMA FICHA<br>
+
+
+            </p>
+        </div>
+    </div>
+
+    <script src="/js/menu.js"></script>
+</body>
+</html>
